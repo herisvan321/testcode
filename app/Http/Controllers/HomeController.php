@@ -44,7 +44,7 @@ class HomeController extends Controller
             return back();
         }
 
-
+        $tampil = '';
         $url = $_SERVER['REQUEST_URI'];
         if($url == '/home/pages/menu')
         {
